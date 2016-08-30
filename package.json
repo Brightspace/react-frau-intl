@@ -28,33 +28,28 @@
   },
   "homepage": "https://github.com/Brightspace/react-frau-intl",
   "dependencies": {
-    "babel-preset-es2015": "^6.3.13",
-    "babel-preset-react": "^6.3.13",
-    "babelify": "^7.2.0",
     "intl-format-cache": "^2.0.4",
-    "intl-messageformat": "^1.1.0",
-    "react": "^0.13.3"
+    "intl-messageformat": "^1.1.0"
+  },
+  "peerDependencies": {
+    "react": "^0.13.0 || ^0.14.0 || ^15.0.0"
   },
   "devDependencies": {
-    "babel": "^5.8.21",
+    "babel-core": "^6.5.2",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "6.11.1",
+    "babelify": "^7.3.0",
     "chai": "^3.2.0",
     "coveralls": "^2.11.2",
     "intl": "^1.0.0",
     "istanbul-harmony": "^0.3.16",
     "jshint": "^2.5.11",
-    "mocha": "^2.2.5"
+    "mocha": "^2.2.5",
+    "react": "^15.3.0"
   },
   "browserify": {
     "transform": [
-      [
-        "babelify",
-        {
-          "presets": [
-            "es2015",
-            "react"
-          ]
-        }
-      ]
+      "babelify"
     ]
   }
 }
