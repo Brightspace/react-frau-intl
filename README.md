@@ -1,3 +1,11 @@
+> **Obsolete**
+>
+> Instead of this library, please use the more featureful, popular
+> and better-maintained [react-intl](https://github.com/yahoo/react-intl/)
+> for internationalization in your React applications. Most importantly,
+> it has support for the powerful [ICU Message Syntax](https://formatjs.io/guides/message-syntax/).
+>
+
 # react-frau-intl
 
 [![NPM version][npm-image]][npm-url]
