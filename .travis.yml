@@ -1,15 +1,15 @@
 language: node_js
 node_js:
-- '0.12'
+  - '0.12'
 after_success:
-- npm run report-coverage
+  - npm run report-coverage
 deploy:
   provider: npm
   email: d2ltravisdeploy@d2l.com
   api_key:
-    secure: S3VGRQQY3hLM9y89I9qHO9G7QfmSu6A43bC7lUEtf8M+zyZ5XTP22kEki+UI9PC0SMO/nCQTxhAyVE+m+6pNqbeWRzOrS2SWDLyD9KN7qIUl8VUWwaW7CQlHMrOppUuvJVxS9JNii0dSLcvwhtcb4eEB+LTSBNV3//VznHXeXc8=
+    # d2l-travis-deploy: 0ccc......7ff0
+    secure: gwFOnbYs1qwj3q6mvODyuKmNO4h0MbQlQFUEJ7QRhqd0zFEaW20nnx9Ou3nQ2holVAwvZ2Mt52APERWRK65AG/jlcaJcM7VD1KI7P4wQAWNHnh2lL5OMZE73qYFsQuQkalOYFElFE3oFLlldO7qi8WZuOFFfoTPoYYRUF9mkf+4=
   on:
     tags: true
     repo: Brightspace/react-frau-intl
     all_branches: true
-
