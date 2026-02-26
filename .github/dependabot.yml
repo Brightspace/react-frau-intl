@@ -1,0 +1,15 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    ignore:
+      - dependency-name: intl-format-cache
+        versions: '>= 3'
+      - dependency-name: intl-messageformat
+        versions: '>= 1'
+    cooldown:
+      # update-package-lock workflow handles minor/patch updates - delay for a few weeks to give time to handle breaking change in those PRs
+      default-days: 25
+      semver-major-days: 5
