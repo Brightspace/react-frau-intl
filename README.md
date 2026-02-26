@@ -9,9 +9,6 @@
 # react-frau-intl
 
 [![NPM version][npm-image]][npm-url]
-[![Build status][ci-image]][ci-url]
-[![Coverage Status][coverage-image]][coverage-url]
-[![Dependency Status][dependencies-image]][dependencies-url]
 
 A simple component for providing localized messages to React components.
 
@@ -77,12 +74,3 @@ contributions should make use of them.
 
 [npm-url]: https://www.npmjs.org/package/react-frau-intl
 [npm-image]: https://img.shields.io/npm/v/react-frau-intl.svg
-[ci-url]: https://travis-ci.org/Brightspace/react-frau-intl
-[ci-image]: https://img.shields.io/travis-ci/Brightspace/react-frau-intl.svg
-[coverage-url]: https://coveralls.io/r/Brightspace/react-frau-intl?branch=master
-[coverage-image]: https://img.shields.io/coveralls/Brightspace/react-frau-intl.svg
-[dependencies-url]: https://david-dm.org/brightspace/react-frau-intl
-[dependencies-image]: https://img.shields.io/david/Brightspace/react-frau-intl.svg
-
-
-
